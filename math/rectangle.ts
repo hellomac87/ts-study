@@ -1,3 +1,6 @@
-function calculateRectangle(width: number, height: number): number {
+export default function calculateRectangle(
+  width: number,
+  height: number
+): number {
   return width * height;
 }

@@ -1,5 +1,5 @@
-import { PI, calculateCircumference } from "./math/circle";
-
-console.log(PI);
-console.log(calculateCircumference(10));
-// console.log();
+import * as Circle from "./math/circle";
+import calculateRectangle from "./math/rectangle";
+console.log(Circle.PI);
+console.log(Circle.calculateCircumference(17));
+console.log(calculateRectangle(20, 123));
