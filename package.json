@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "lite-server": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.29"
   }
 }
